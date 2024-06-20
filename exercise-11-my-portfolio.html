@@ -1,0 +1,63 @@
+exercise-11-my-portfolio.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-color: #C1E0FF;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            padding: 8px 12px;
+        }
+
+        nav a:not(:last-child) {
+            border-right: 2px solid black;
+            padding-right: 4px;
+        }
+
+        .container {
+            padding: 16px;
+            display: flex;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+        }
+        
+        hr {
+            border: 1px solid black;
+            margin: 0;
+        }
+        h2
+        {
+            font-size: larger;
+            font-family:'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="exercise-11-my-portfolio.html">Home</a>
+        <a href="exercise.html">Exercises</a>
+        <a href="exercise-10-design.html">Designs</a>
+        <a href="https://www.facebook.com/">Facebook</a>
+    </nav>
+    <hr>
+    <div class="container">
+        <img src="profile.jpg" alt="Profile Picture">
+        <section>
+            <h1>Arnon Isaac Berdan</h1>
+            <br>
+            <h2>Rising third year student at Filamer Christian University taking up Bachelor of Science in Computer Science with career interests in website development, graphic design, tech and sports.</h2>
+        </section>
+    </div>
+</body>
+</html>
